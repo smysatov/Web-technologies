@@ -1,0 +1,75 @@
+html {
+    background-color: rosybrown;
+}
+
+h1 {
+    color: rgb(30, 253, 0);
+    font-family: 'beer money', sans-serif;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+a {
+    color: crimson;
+}
+
+img {
+    width: 300px;
+}
+
+.absolute {
+    width: 350px;
+}
+
+.local {
+    height: 200px;
+    width: 350px;
+}
+
+.big {
+    font-weight: bold;
+    color: blue;
+    font-size: xx-large;
+}
+
+@font-face {
+    font-family: 'Teddy Bear';
+    src: url('source/fonts/teddy_bear.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('source/fonts/teddy_bear.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('source/fonts/teddy_bear.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('source/fonts/teddy_bear.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('source/fonts/teddy_bear.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('source/fonts/teddy_bear.svg#teddy_bear') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'beer money';
+    src: url('../fonts/beer_money.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('source/fonts/beer_money.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('source/fonts/beer_money.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('source/fonts/beer_money.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('source/fonts/beer_money.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('source/fonts/beer_money.svg#beer_money') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+ol {
+    list-style: square;
+}
